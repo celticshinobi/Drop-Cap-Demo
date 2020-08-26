@@ -5,15 +5,27 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 	margin: 0; padding: 0; border: 0;
 }
 
+html {height: 100%}
+
 body {
 	font-family: 'Bree Serif', serif;
 	color:#fff;
+	background: cornsilk;
+	height: 100%
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
 	background: #566074;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
 }
 
 #drop {
 	width: 730px;
-	margin: 150px auto;
+	margin: 0 auto;
 }
 
 p {
